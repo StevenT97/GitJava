@@ -13,6 +13,9 @@ import javax.swing.JFrame;
 public class MainGUI extends JFrame{
 	public MainGUI(){
 		setPreferredSize(new Dimension(400,400));
+		setLayout(null);
+		setTitle("Thuan Pro");
+		pack();
 	}
 
 	/**
